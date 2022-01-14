@@ -9,8 +9,8 @@ const Nav = () => {
     <img src='https://www.pinclipart.com/picdir/middle/125-1251996_white-home-5-icon-png-logo-home-clipart.png' alt='home' width='100' length='100'/>
     </Link>
     <Link to="/Beer">
-    <h4>Shop</h4>
-    <img src='https://www.ikea.com/gb/en/images/products/frakta-carrier-bag-large-blue__0711231_pe728076_s5.jpg?f=s' alt='home' width='100' length='100'/>
+    <h4>Beer</h4>
+    <img src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-toasting-with-beer-glasses-in-the-royalty-free-image-1637621142.jpg?crop=1.00xw:0.752xh;0,0.132xh&resize=980:*' alt='home' width='100' length='100'/>
     </Link>
     <Link to="/content">
     <h4>Content</h4>

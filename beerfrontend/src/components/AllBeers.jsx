@@ -1,9 +1,16 @@
-const AllBeers = () => {
+const AllBeers = ({name, image, abv, foodPairing}) => {
     return ( 
         <div>
-            <h2> All beers page </h2>
-        </div>
+            <h3> {name} </h3>
+            <img src={image} alt={`image of beer ${name}`} height='200px'></img>
+            <h4> Alcohol content of beer: {abv}</h4>
+            <ul> 
+                {foodPairing.map((food) => {
+                    return <li>{food}</li>
+            })}
+             </ul>
 
+        </div>
      );
 }
  
