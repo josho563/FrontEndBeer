@@ -18,7 +18,7 @@ const Beers = () => {
     
         useEffect(() => {
             
-                axios.get(`https://localhost:27017/db_beer`) // this needs to change
+                axios.get(`http://18.132.13.171:27017/db_beer`) // this needs to change
                 .then((response) => {
                 // What does the data look like when pulling it
                 setBeerData(response.data)
@@ -39,7 +39,7 @@ const Beers = () => {
     
         // const getBeerId = (id) => {
     
-        //     axios.get(`https://localhost:27017/db_beer`) // this needs to change
+        //     axios.get(`http://18.132.13.171:27017/db_beer`) // this needs to change
         //     .then((response) => {
         //         setBeerData(response.data);
         //         setLoaded(true);
