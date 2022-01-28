@@ -18,7 +18,7 @@ const Beers = () => {
     
         useEffect(() => {
             
-                axios.get(`http://localhost:27017/db_beer`) // this needs to change
+                axios.get(`https://localhost:27017/db_beer`) // this needs to change
                 .then((response) => {
                 // What does the data look like when pulling it
                 setBeerData(response.data)
